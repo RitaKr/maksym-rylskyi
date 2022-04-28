@@ -1,0 +1,118 @@
+@media screen and (max-width: 720px){
+
+    nav {
+        overflow-x: auto;
+        overflow-y: none;
+        width: 100%;
+        height: 60px;
+    }
+    nav a {
+        height: 100%;
+        padding: 10px 15px;
+        align-items: center;
+        align-self: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #scrollLine {
+        position: absolute;
+        bottom: 0px;
+    }
+    .logo {
+        padding-left: 0%;
+    }
+    footer > img {
+        width: 100px;
+        top: -50px;
+    
+    }
+    footer {
+        padding-bottom: 8%;
+    }
+
+    .right-left-block {
+        font-size: 1em;
+    }
+    header {
+        height: 50vh;
+        background-position-y: 0%;
+    }
+    header::after {
+        height: 200px;
+        bottom: 0;
+    }
+    header h1 {
+        font-size: 20vw;
+    }
+    header h2 {
+        line-height: 0.95em;
+    }
+    /*.deleted {
+        display: none;
+    }*/
+    .right-left-block section {
+        padding: 4% 0;
+        width: 100%;
+        
+    }
+    .left, .right {
+        flex-direction: column;
+        padding: 0;
+    
+    }
+    .right {
+        padding: 16% 0 !important;
+    }
+    
+    /*
+    .right:nth-child(2), .right:nth-child(4) {
+        background: radial-gradient(var(--curCol), var(--curCol2));
+    }
+    */
+    .right-left-block section.right:nth-child(2) {
+        background: linear-gradient(176deg, white 5%, var(--curCol) 5%, var(--curCol) 95%, white 95%);
+    }
+    
+    .right-left-block section.right:nth-child(3) {
+        background: linear-gradient(176deg, white 5%, var(--curCol) 5%, var(--curCol) 100%, white 100%);
+    }
+    .right-left-block section.right:nth-child(6) {
+        background: linear-gradient(177deg, white 5%, var(--curCol) 5%, var(--curCol) 100%, white 100%);
+    }
+
+
+
+    .poetry-div.right-left-block section.right:nth-child(2) {
+        background: linear-gradient(176deg, white 0%, var(--curCol) 0%, var(--curCol) 97%, white 97%);
+        align-items: center ;
+        padding-top: 0% !important;
+    }
+    .poetry-div.right-left-block section.right:nth-child(4) {
+        background: linear-gradient(184deg, white 5%, var(--curCol) 5%, var(--curCol) 95%, white 95%);
+        align-items: center;
+        
+    }
+    .pro-rylskogo span {
+        width: 80% !important;
+    }
+    
+    .text, .image {
+        width: 90%;
+        padding: 4%;
+        margin: 0;
+        
+    }
+    .right .image {
+        margin-right: 0%;
+    }
+    .left .image {
+        margin-left: 0%;
+    }
+    .text h1 {
+        font-size: 1.7em;
+    }
+    footer > p {
+        padding: 0 5%;
+    }
+}

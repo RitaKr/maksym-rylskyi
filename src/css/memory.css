@@ -1,0 +1,43 @@
+header {
+    background: url(../images/графика/graf1.png), var(--curCol);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 80%;
+}
+header::after {
+    
+    background: linear-gradient(to top, #fffffffc, transparent);
+}
+header h1 {
+    
+    text-shadow: 5px 5px 0 #8f143390, 10px 10px 0 #8f143340, 15px 15px 0 #8f143320;
+   /* text-shadow: 0 0 50px white;*/
+}
+nav {
+    background: white;
+}
+#main {
+    background-color: white;
+}
+.right-left-block section.right:nth-child(4) {
+    background: linear-gradient(184deg, white 20%, var(--curCol) 20%, var(--curCol) 100%, white 100%);
+}
+:root {
+    --col1: #ffca67;
+    --col2: #ff9a73;
+    --col3: #513dc7;
+    --col4: #8f1433;
+    --btn2: rgb(120, 122, 143);
+    --formCol1: #513dc7;
+    --formCol2: #ff9a73;
+    --bg: #444477;
+    --curCol: var(--col4);
+    --curCol2: #630f24;  
+}
+
+@media screen and (max-width: 720px){ 
+    .right-left-block section.right:nth-child(4) {
+        background: linear-gradient(184deg, white 7%, var(--curCol) 7%, var(--curCol) 100%, white 100%);
+    }
+}

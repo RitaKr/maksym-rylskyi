@@ -1,0 +1,184 @@
+header {
+    background: url(../images/графика/graf2.png), var(--curCol);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 80%;
+}
+header::after {
+    
+    background: linear-gradient(to top, #fffffffc, transparent);
+}
+header h1 {
+    
+    text-shadow: 5px 5px 0 #ff9a7390, 10px 10px 0 #ff9a7340, 15px 15px 0 #ff9a7320;
+   /* text-shadow: 0 0 50px white;*/
+}
+nav {
+    background: white;
+}
+#main {
+    background-color: white;
+}
+
+.right-left-block > h1 {
+    font-size: 2.5em;
+    padding: 3%;
+    color: var(--curCol2);
+    width: 100%;
+    text-align: center;
+    
+}
+.video-div > h1 {
+    background: linear-gradient(to bottom, var(--curCol), transparent);
+}
+.poetry-div > h1 {
+    background: linear-gradient(to top, var(--curCol), transparent);
+}
+/*
+.video-right-left-block section.right {
+    flex-direction: row-reverse;
+    color: white;
+    padding: 10% 8% 5% 8%;
+}*/
+
+
+
+.video-div.right-left-block section .text {
+    width: 62%;
+    padding: 2% 0;
+ 
+}
+.video-div.right-left-block section .text p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 0.95em;
+
+}
+
+.poetry-div section .text p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.right-left-block section .text p span {
+    width: 48%;
+    display: block;
+    margin: 0 2%;
+
+}
+.right-left-block section .text h1 {
+    /*font-size: 2.2em;*/
+    margin-bottom: 3%;   
+    text-align: center;
+    
+}
+
+.right-left-block.video-div section .image {
+    text-align: center;
+    width: 55%;
+   padding: 0;
+   
+}
+  
+.video {
+    width: 40vw;
+    height: 25vw;
+    box-shadow:  0 0 30px rgba(0, 0, 0, 0.8);
+}
+#very-long-poetry {
+    flex-direction: column; 
+    padding: 8% 7%;
+      
+    background: linear-gradient(184deg, white 8%, var(--curCol) 8%, var(--curCol) 100%, white 100%);
+}
+#very-long-poetry .text {
+    width: 100%; 
+    align-items: stretch; 
+    justify-content: center;
+}
+#hidden-abzaz {
+    display: none;
+}
+.pro-rylskogo  {
+    display: flex; 
+    justify-content: space-around;
+}
+:root {
+    --col1: #ffca67;
+    --col2: #ff9a73;
+    --col3: #513dc7;
+    --col4: #8f1433;
+    --btn2: rgb(120, 122, 143);
+    --formCol1: #513dc7;
+    --formCol2: #ff9a73;
+    --bg: #444477;
+    --curCol: var(--col2); 
+    --curCol2: #97583f;
+}
+
+@media screen and (max-width: 720px){
+    .video {
+        height: 50vw;
+        width: 100%
+    }
+    .right-left-block.video-div section .image {
+        width: 90%;
+        padding: 4%;
+        margin: 0;
+    }
+    .video-div.right-left-block section .text, .poetry-div.right-left-block section .text {
+        width: 90%;
+        padding: 4%
+        
+    }
+    
+    .video-div.right-left-block section .text p, .poetry-div.right-left-block section .text p{
+        font-size: 14px;
+        width: 100%;
+        padding: 0%;
+        
+    }
+    
+    .right-left-block > h1{
+            font-size: 2em;
+    }
+    #very-long-poetry  {
+        background: linear-gradient(184deg, white 2%, var(--curCol) 2%, var(--curCol) 100%, white 100%);
+        
+    }
+    #very-long-poetry .text h1 {
+        padding-top: 8%;
+    }
+    #very-long-poetry .text p{
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        margin-right: 0;
+        min-width: fit-content
+    }
+    #very-long-poetry .text p span {
+        min-width: fit-content;
+        align-items: center;
+        margin: 10px 0;
+    }
+    #shown-abzaz {
+        display: none;
+    }
+    #hidden-abzaz {
+        display: block;
+        width: 100%;
+        margin: 0 !important;
+    }
+    .right-left-block section.right:nth-child(4) {
+        background: linear-gradient(184deg, white 7%, var(--curCol) 7%, var(--curCol) 93%, white 93%);
+    }
+    
+}
