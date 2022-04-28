@@ -1,17 +1,14 @@
-# ukrlit
+# ukrlit contest project
 The Ukrlit project 
 
 Team members:
 
-RitaKr
+RitaKr (main front-end dev)
 
-Blatnaya utka
+Blatnaya utka (designer)
 
-Ploskiy
+Ploskiy (minor front-end dev)
 
-A. Trokhymchuk 
+A. Trokhymchuk (minor front-end dev, main back-end dev)
 
-TODOLIST:
 
-- [ ] add biography
-- [ ] slider in facts
