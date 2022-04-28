@@ -2,9 +2,9 @@
 
 Team members:
 
-RitaKr (main front-end dev)
+RitaKr (major front-end dev)
 
-A. Trokhymchuk (minor front-end dev, main back-end dev)
+A. Trokhymchuk (major back-end dev, minor front-end dev)
 
 Blatnaya utka (designer)
 
